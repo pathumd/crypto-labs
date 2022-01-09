@@ -4,12 +4,10 @@ import Carousel from './Carousel';
 
 const useStyles = makeStyles(() => ({
     banner: {
-        
+        backgroundColor: "#151738",
     },
     bannerContent: {
         height: 520,
-        width: "100%",
-        backgroundColor: "#151738",
         display: "flex",
         flexDirection: "column",
         paddingTop: 120,
@@ -29,7 +27,7 @@ const useStyles = makeStyles(() => ({
 const Banner = () => {
     
     const classes = useStyles();
-    return <div className={classes.Banner}>
+    return <div className={classes.banner}>
         <Container className={classes.bannerContent}>
             <div className={classes.tagline}>
                 <Typography variant="h2" style={{fontWeight: "bold", marginBottom: 15, fontFamily: "Inter",}}>
