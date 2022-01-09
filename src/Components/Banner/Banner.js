@@ -8,6 +8,7 @@ const useStyles = makeStyles(() => ({
     },
     bannerContent: {
         height: 520,
+        width: "100%",
         backgroundColor: "#151738",
         display: "flex",
         flexDirection: "column",
