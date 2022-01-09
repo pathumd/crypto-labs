@@ -7,9 +7,9 @@ Project Version 1.0 01/08/2022
 
 Description:
 --------------
-- This ATM banking application was built using C and provides the same functionality as a modern-day ATM. 
-- The application can complete any number of transactions, and these transactions include depositing or withdrawing funds into or from different types of accounts and checking the available balance of a desired account.
-- Note: The PIN for the application is '1234'
+- Crypto Labs is a web application that was built using React.js and Material UI that tracks every cryptocurrency and its information according to their market value. 
+- The web application provides the increase/decrease percentage of each cryptocurrency, the current price, the rank and its market value using the Coin Gecko API. 
+- Using Chart JS, Crypto Labs also displays each cryptocurrency's value over a desired period of time.
 
 License:
 ---------
